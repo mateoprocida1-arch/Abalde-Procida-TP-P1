@@ -6,7 +6,7 @@ import entorno.Entorno;
 import entorno.Herramientas;
 
 public class Regalo {
-	private static double x;
+	private double x;
 	double y;
 	double escala;
 	double angulo;
@@ -32,9 +32,7 @@ public class Regalo {
 		e.dibujarImagen(regalo, this.x, this.y, this.angulo, this.escala);
 	}
 	
-	public static double getX() {
-		return x;
-	}
+
 }
 
 

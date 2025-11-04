@@ -41,5 +41,8 @@ public class Planta {
 		this.x = xM;
 		this.y = yM;
 	}
+	public void colisionConZombie() {
+		
+	}
 	
 }
